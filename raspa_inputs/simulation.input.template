@@ -1,0 +1,23 @@
+SimulationType                MonteCarlo
+NumberOfCycles                20000
+NumberOfInitializationCycles  10000
+PrintEvery                    2000
+RestartFile                   no
+
+Forcefield                    Local
+RemoveAtomNumberCodeFromLabel yes
+UseChargesFromCIFFile         no
+CutOffVDW                     12.8
+
+Framework 0
+FrameworkName                 __FRAMEWORK__
+UnitCells                     __UC__
+ExternalTemperature           298.0
+ExternalPressure              __PRESSURE_PA__
+
+Component 0 MoleculeName              methane
+            MoleculeDefinition       Local
+            TranslationProbability   1.0
+            ReinsertionProbability   1.0
+            SwapProbability          2.0
+            CreateNumberOfMolecules  0

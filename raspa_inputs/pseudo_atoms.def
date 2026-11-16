@@ -1,0 +1,14 @@
+#number of pseudo atoms
+11
+#type print as       chem oxidation mass       charge polarization B-factor radii connectivity anisotropic anisotropic-type tinker-type
+CH4   yes   CH4      C    0         16.04246   0.0    0.0          0.0      1.0   0            0           absolute         0
+H     yes   H        H    0         1.00794    0.0    0.0          0.0      1.0   0            0           absolute         0
+B     yes   B        B    0         10.811     0.0    0.0          0.0      1.0   0            0           absolute         0
+C     yes   C        C    0         12.0107    0.0    0.0          0.0      1.0   0            0           absolute         0
+N     yes   N        N    0         14.0067    0.0    0.0          0.0      1.0   0            0           absolute         0
+O     yes   O        O    0         15.9994    0.0    0.0          0.0      1.0   0            0           absolute         0
+F     yes   F        F    0         18.9984    0.0    0.0          0.0      1.0   0            0           absolute         0
+Si    yes   Si       Si   0         28.0855    0.0    0.0          0.0      1.0   0            0           absolute         0
+S     yes   S        S    0         32.065     0.0    0.0          0.0      1.0   0            0           absolute         0
+P     yes   P        P    0         30.97376   0.0    0.0          0.0      1.0   0            0           absolute         0
+Cl    yes   Cl       Cl   0         35.453     0.0    0.0          0.0      1.0   0            0           absolute         0

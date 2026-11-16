@@ -1,0 +1,54 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Local datasets and structure collections
+properties.csv
+linker.csv
+linker_smiles.csv
+*.cif
+*.res
+*.sa
+*.vol
+curated_cifs*/
+mercado_cifs*/
+zeo_out/
+mercado_zeo/
+
+# Trained models and generated evaluation files
+*_final.json
+*_final.txt
+*.pt
+*.joblib
+*_oof.csv
+*_fold_metrics.csv
+*_model_comparison.csv
+*_feature_ranges.csv
+*_ranked.csv
+*_metrics.json
+transfer_stack.json
+nested_stack_model.json
+nested_evaluation.json
+ablation_evaluation.json
+descriptor_calibration.json
+results/
+
+# Simulation outputs, figures, and logs
+raspa_runs/
+raspa_validate/
+*.png
+*.svg
+*.pdf
+*.tif
+*.tiff
+*.log
+logs/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
